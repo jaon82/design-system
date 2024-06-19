@@ -1,14 +1,18 @@
 {
-  "name": "@ignite-ui/design-system",
+  "name": "@jaon-ignite-ui/design-system",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=!@jaon-ignite-ui/docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.5",
     "turbo": "^2.0.4"
   },
   "packageManager": "npm@10.7.0"

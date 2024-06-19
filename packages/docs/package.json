@@ -1,7 +1,7 @@
 {
-  "name": "@ignite-ui/docs",
+  "name": "@jaon-ignite-ui/docs",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev-vite": "vite",
@@ -13,10 +13,10 @@
     "deploy-storybook": "storybook-to-ghpages"
   },
   "dependencies": {
-    "@ignite-ui/eslint-config": "*",
-    "@ignite-ui/react": "*",
-    "@ignite-ui/tokens": "*",
-    "@ignite-ui/ts-config": "*",
+    "@jaon-ignite-ui/eslint-config": "*",
+    "@jaon-ignite-ui/react": "*",
+    "@jaon-ignite-ui/tokens": "*",
+    "@jaon-ignite-ui/ts-config": "*",
     "@storybook/addon-a11y": "^8.1.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
